@@ -1,7 +1,7 @@
 /********** Template CSS **********/
 :root {
     --primary: #e68f44;
-    --secondary: #999999;
+    --secondary: #78400f;
     --light: #F2F8FE;
     --dark: #111111;
 }
@@ -29,6 +29,10 @@ h6,
     border-color: #e68f44;
 }
 
+.navbar-brand .me-2 {
+height: 110px;
+
+}
 /*** Spinner ***/
 #spinner {
     opacity: 0;
