@@ -1,6 +1,6 @@
 /********** Template CSS **********/
 :root {
-    --primary: #16D5FF;
+    --primary: #e68f44;
     --secondary: #999999;
     --light: #F2F8FE;
     --dark: #111111;
@@ -23,6 +23,11 @@ h6,
     font-weight: 500 !important;
 }
 
+.btn-primary {
+    color: #000;
+    background-color: #e68f44;
+    border-color: #e68f44;
+}
 
 /*** Spinner ***/
 #spinner {
