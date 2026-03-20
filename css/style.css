@@ -23,15 +23,31 @@ h6,
     font-weight: 500 !important;
 }
 
+a {
+    color: #e68f44;
+}
+
 .btn-primary {
     color: #000;
     background-color: #e68f44;
     border-color: #e68f44;
 }
 
+.bg-primary {
+    background-color: #e68f44!important;
+}
+
+.text-primary {
+    color: #e68f44 !important;
+}
+
 .navbar-brand .me-2 {
 height: 110px;
 
+}
+.py-5 {
+    padding-top: 20px!important;
+    padding-bottom: 20px !important;
 }
 /*** Spinner ***/
 #spinner {
@@ -316,7 +332,7 @@ height: 110px;
     margin-bottom: 5px;
     padding: 0;
     text-align: left;
-    color: var(--secondary);
+    color: var(--primary);
     font-weight: normal;
     text-transform: capitalize;
     transition: .3s;
@@ -332,7 +348,7 @@ height: 110px;
 }
 
 .footer .btn.btn-link:hover {
-    color: var(--primary);
+    color: var(--secondary);
     letter-spacing: 1px;
     box-shadow: none;
 }
